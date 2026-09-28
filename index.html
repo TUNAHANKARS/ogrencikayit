@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OKUL KAYIT</title>
+</head>
+<header>
+    <img src="okulkayıt.jpg" alt="aile okulda" width="560" height="315">
+    <H2>OKULUNA HOŞ GELDİN.</H2> <hr>
+</header>
+<body>
+  <form>
+    <label for="ogradsoyad"> ÖĞRENCİ ADI SOYADI : </label>
+    <input type="text" name="ogradsoyad" id="ogradsoyad">
+    <br>
+    <label for="tcno">ÖĞRENCİNİN TC KİMLİK NUMARASI :</label>
+    <input type="password" required  maxlength="11">
+    <br>   
+    <label for="cinsiyet">ÖĞRENCİ CİNSİYET</label>
+    <select name="cinsiyet" id="cinsiyet">
+        <option value="">SEÇİNİZ </option>
+        <option value="erkek">ERKEK</option>
+        <option value="kız">KIZ</option>
+    </select>
+    <br>
+    <label for="dgmtrh">DOĞUM TARİHİ : </label>
+    <input type="date" id="dgmtrh">
+    <br>
+    <label for="ogrtelno">VAR İSE ÖĞRENCİ TELEFON NUMARASI : </label>
+    <input type="tel" id="ogrtelno"> <br>
+    <label for="sinif">HANGİ SINIFLAR OLACAK?</label>
+    <label >5. sınıf</label><input type="checkbox">
+    <label >6. sınıf</label><input type="checkbox">
+    <label >7. sınıf</label><input type="checkbox">
+    <label >8. sınıf</label><input type="checkbox">
+    <details open>
+        <summary>FİYATLAR</summary>
+        <ul>
+            <li> <strong> 5.Sınıf: </strong> 57.500TL</li>
+            <li> <strong> 6.Sınıf: </strong> 45.500TL</li>
+            <li> <strong> 7.Sınıf: </strong> 45.500TL</li>
+            <li> <strong> 8.Sınıf: </strong> 45.500TL</li>
+        </ul>
+    </details>
+    <br>
+    <label for="foto">ÖĞRENCİ FOTOĞRAFI YÜKLEYİNİZ</label>
+    <input type="file" id="foto" accept="img" >
+    <hr>
+    <label for="e1">1.EBEVEYN AD-SOYAD : </label>
+    <input type="text" id="e1"> <br>
+    <label for="no1">1. EBEVEYN NUMARASI :</label>
+    <input type="tel" maxlength="11" required> <br>
+    <label for="e2">2.EBEVEYN AD-SOYAD : </label>
+    <input type="text" id="e2"> <br>
+    <label for="no1">2. EBEVEYN NUMARASI :</label>
+    <input type="tel" maxlength="11" required> 
+    <br>
+    <label for="eposta">EPOSTA GİRİN</label>
+    <input type="email" name="eposta" id="eposta">
+    <br>
+    <label for="ilce">AİLE HANGİ İLÇEDE YAŞIYOR?</label>
+    <select name="ilce" id="ilce">
+        <option value=""></option>
+    <option value="ALTINDAĞ">ALTINDAĞ</option>
+    <option value="AKYURT">AKYURT</option>
+    <option value="AYAŞ">AYAŞ</option>
+    <option value="BALA">BALA</option>
+    <option value="BEYPAZARI">BEYPAZARI</option>
+    <option value="ÇAMLIDERE">ÇAMLIDERE</option>
+    <option value="ÇANKAYA">ÇANKAYA</option>
+    <option value="ÇUBUK">ÇUBUK</option>
+    <option value="ELMADAĞ">ELMADAĞ</option>
+    <option value="ETİMESGUT">ETİMESGUT</option>
+    <option value="SİNCAN">SİNCAN</option>
+    <option value="YENİMAHALLE">YENİMAHALLE</option>
+    </select>
+    <br>
+    <label for="adrs">AÇIK ADRES GİRİNİZ  </label>
+    <textarea name="adrs" id="adrs" placeholder="EV ADRESİNİZİ GİRİNİZ"  required></textarea>
+    <br>
+    <label for="clr">ÖĞRENCİNİZİN FORMASI HANGİ RENK OLSUN</label>
+    <input type="color" name="clr" id="clr">
+    <br>
+    <label for="aralıks">TENEFÜSLER KAÇ DK OLSUN? </label>
+    <input type="range"><br><br>
+    <label for="sbhogle">SABAH MI ÖĞLEN Mİ? </label>
+    <br>
+    <label >SABAH</label><input type="radio">
+    <label >ÖĞLEN</label>
+    <input type="radio">
+
+
+
+
+
+
+
+        <hr>
+    <br>
+  <button type="submit" >KAYIT OL </button> 
+  <input type="reset" value="TEMİZLE" >
+
+</form>
+</body>
+<hr>
+<footer>TUNAHANKARS 2026-2027 OKUL KAYIT</footer>
+</html>
